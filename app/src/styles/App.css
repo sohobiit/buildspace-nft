@@ -1,13 +1,13 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #23a0c6;
   overflow: scroll;
   text-align: center;
 }
 
 .container {
   height: 100%;
-  background-color: #0d1116;
+  background-color: #2fdecc;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,6 +21,11 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+}
+
+.change-sz {
+  height: 512px;
+  width: 512px;
 }
 
 .sub-text {
@@ -38,6 +43,7 @@
 .cta-button {
   height: 45px;
   border: 0;
+  align-self: center;
   width: auto;
   padding-left: 40px;
   padding-right: 40px;
